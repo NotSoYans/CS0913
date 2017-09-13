@@ -1,0 +1,72 @@
+    1  sudo nano /etc/hostname
+    2  sudo nano /etc/hosts
+    3  sudo reboot
+    4  sudo apt-get python-gi
+    5  sudo apt-get firefox
+    6  sudo apt-get install ntfs-3g
+    7  sudo mkdir /media/storage
+    8  sudo cp /etc/fstab /etc/fstab.backup
+    9  sudo blkid
+   10  gksudo gedit /etc/fstab
+   11  reboot
+   12  gedit .config/user-dirs.dirs
+   13  reboot
+   14  gedit .config/user-dirs.dirs
+   15  sudo apt-get install gedit
+   16  gedit .config/user-dirs.dirs
+   17  sudo ntfsfix /dev/sda5
+   18  mount /dev/sda5
+   19  gksu nautilus
+   20  gksu nautilus /.config/sublime-text-3/Packages/
+   21  gksu nautilus
+   22  sudo dpkg --add-arhcitecture i386
+   23  sudo dpkg --add-architecture i386
+   24  wget https://dl.winehq.org/wine-builds/Release.key
+   25  sudo apt-key add Release.key
+   26  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
+   27  sudo apt-get update
+   28  sudo apt-get install --install-recommends winehq-devel
+   29  sudo apt-get update
+   30  sudo apt-get install --install-recommends winehq-devel
+   31  winecfg
+   32  wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+   33  chmod +x winetricks
+   34  winetricks
+   35  sudo apt install winetricks
+   36  chmod +x winetricks
+   37  winetricks
+   38  winetricks vcrun2015
+   39  list-download
+   40  list
+   41  winetricks list-download
+   42  winetricks help
+   43  winetricks corefonts
+   44  winecfg
+   45  cd/osr/share/pulseaudio/alsa-mixer/paths/
+   46  /cd/osr/share/pulseaudio/alsa-mixer/paths/
+   47  cd /usr/share/pulseaudio/alsa-mixer/paths/
+   48  sudo cp analog-output-headphones.conf analog-output-headphones.bak
+   49  sudo gedit analog-output-headphones.conf
+   50  sudo cp analog-output-headphones.conf analog-output-headphones.fixed
+   51  reboot
+   52  cd /
+   53  cd root
+   54  reboot
+   55  gksudo gedit /etc/modprobe.d/alsa-base.conf
+   56  sudo apt-get install pavucontrol
+   57  pavucontrol
+   58  sudo apt-get-repository ppa:ubuntu-mozilla-daily/ppa
+   59  sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+   60  sudo apt-get update
+   61  sudo apt-get install firefox-trunk
+   62  lsb_release
+   63  uname -r
+   64  cat /etc/*-release
+   65  ssh x161REB133@213.175.92.37.
+   66  reboot
+   67  ssh x161REB133@213.175.92.37.
+   68  ssh -X x161REB133@213.175.92.37.
+   69  ls
+   70  cd darbi
+   71  cat history.txt
+   72  history > history.txt
