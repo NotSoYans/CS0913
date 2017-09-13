@@ -64,9 +64,54 @@
    64  cat /etc/*-release
    65  ssh x161REB133@213.175.92.37.
    66  reboot
-   67  ssh x161REB133@213.175.92.37.
-   68  ssh -X x161REB133@213.175.92.37.
+   67  pwd
+   68  mkdir darbi
    69  ls
    70  cd darbi
-   71  cat history.txt
-   72  history > history.txt
+   71  ls
+   72  man history
+   73  history > history.txt
+   74  ls
+   75  git init
+   76  sudo apt install git
+   77  git init
+   78  history.txt
+   79  gedit history.txt
+   80  git add .
+   81  git config --global user.email yanson.jm@gmail.com
+   82  git commit -m "20170913_09_30"
+   83  git init
+   84  git add .
+   85  git config --global user.email yanson.jm@gmail.com
+   86  git commit -m "20170913_11_40"
+   87  git remote add origin https://github.com/NotSoYans/CS-0913.git
+   88  git push origin master
+   89  rm -rf .git
+   90  ls -l
+   91  ls -la
+   92  git init
+   93  git add .
+   94  git config --global user.email yanson.jm@gmail.com
+   95  git remote add origin https://github.com/NotSoYans/CS-0913.git
+   96  git commit -m "20170913_11_50"
+   97  git push origin master
+   98  rm -rf .git
+   99  git init
+  100  git add .
+  101  git config --global user.email yanson.jm@gmail.com
+  102  git remote add origin https://github.com/NotSoYans/CS-0913.git
+  103  git commit -m "20170913_11_50"
+  104  git push origin master
+  105  git remote add origin https://github.com/NotSoYans/CS0913.git
+  106  rm -rf
+  107  ls
+  108  rm -rf .git
+  109  ls -LA
+  110  ls -la
+  111  git init
+  112  git add .
+  113  git config --global user.email yanson.jm@gmail.com
+  114  git remote add origin https://github.com/NotSoYans/CS0913.git
+  115  git commit -m "20170913_11_50"
+  116  git push origin master
+  117  history > history.txt
