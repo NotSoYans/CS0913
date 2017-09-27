@@ -302,3 +302,24 @@
   302  PATH=$PATH:/home/notsoyans/darbi/CS0913
   303  cd ./darbi/CS0913
   304  history > history_20170927.txt
+  305  gitUL
+  306  cd ../
+  307  ls
+  308  cd CS0913
+  309  subl bash_var_stuff.txt
+  310  scho $0
+  311  echo $0
+  312  echo $$
+  313  echo $1
+  314  ls
+  315  mv bash_var_stuff.txt bash_var
+  316  chmod 744 bash_var
+  317  ./bash_var
+  318  mv bash_var bashVar
+  319  ./bashVar
+  320  mv bashVar bashVar.sh
+  321  ./bashVar.sh arg1
+  322  ./bashVar.sh arg1 arg2
+  323  ./bashVar.sh
+  324  ./bashVar.sh arg1 arg2
+  325  history > history_20170927.txt

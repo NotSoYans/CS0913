@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#4.piem.
+echo "The running script: "$0
+#echo $0
+echo $n
+echo $#
+echo $*
+echo $@
+echo $?
+echo $$
+echo $!
+
+#3.piem.
+#NAME="Name Surname"
+#echo $NAME
+#unset NAME
+#echo $NAME
+
+#2.piem.
+#NAME="Name Surname"
+#readonly NAME
+#echo $NAME
+#NAME="Surname Name"
+#echo $NAME
+
+#1.piem.
+#NAME="Name Surname"
+#echo NAME
