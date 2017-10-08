@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mv ./history_*.txt ./histDump

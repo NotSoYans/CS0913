@@ -1,0 +1,77 @@
+#!/bin/bash
+timestamp() #basic function to call date variable 
+{ 
+	#%F - ISO 8601 datecode standard/%Y-%m-%d 
+	#%T - 24H hour, minute, second/%H:%M:%S
+	date +"%F_%T" 
+}
+
+#GNU timestamp reference
+	#Date
+		#https://www.gnu.org/software/coreutils/manual/html_node/Date-conversion-specifiers.html#Date-conversion-specifiers
+	#Time
+		#https://www.gnu.org/software/coreutils/manual/html_node/Time-conversion-specifiers.html#Time-conversion-specifiers
+
+#About basic Git usage
+	#don't forget to show it later I suppose
+	#https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+#Testing Time functionality
+	timestamp #date call
+
+	#all of tests are in /CS0913/tsTest
+
+	#echo "Testing $(timestamp)" > test.txt
+		#testing time function write to a file - success
+
+	#echo "testing - $(timestamp)" > test_$(timestamp).txt
+		#testing timestamp functionality with filename - success
+
+	#echo "testing for redundancy" > $(timestamp).txt
+		#success
+
+	#Testing timestamp with gitUL file
+		#>>added commitStamp() function to gitUL
+		#>>moddified func to "%Y%m%d_%H_%M" 
+		#>>switched commit name to "$(commitStamp)"
+		#>>additionally included history automation
+		#>>included histStamp() with different datestamp
+		#>>saved the resulting file as gitUL_test
+		#success
+
+
+#4.piem.
+	echo "The running script: "$0
+	#echo $0
+	#echo $n
+	#echo "Current number of given arguments: "$#
+	#echo $#
+	#echo "Given arguments for script (ver1): "$*
+	#echo $*
+	#echo "Given arguments for script (ver2): "$@
+	#echo $@
+	echo "Failed processes: "$?
+	#echo $?
+	echo "Running process ID: "$$
+	#echo $$
+	#echo $!
+
+
+#3.piem.
+	#NAME="Name Surname"
+	#echo $NAME
+	#unset NAME
+	#echo $NAME
+
+
+#2.piem.
+	#NAME="Name Surname"
+	#readonly NAME
+	#echo $NAME
+	#NAME="Surname Name"
+	#echo $NAME
+
+
+#1.piem.
+	#NAME="Name Surname"
+	#echo NAME
