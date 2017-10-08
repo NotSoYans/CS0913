@@ -39,6 +39,13 @@ timestamp() #basic function to call date variable
 		#>>saved the resulting file as gitUL_test
 		#success
 
+		#as it turns out you can't directly get access to history file though non-interactive sctipt
+		#meaning that even tho the file is generated it stays blank.
+		#a possible workaround may be employed by using:
+		
+		#HISTFILE=~/.bash_history
+		#set -o history
+
 
 #4.piem.
 	echo "The running script: "$0
