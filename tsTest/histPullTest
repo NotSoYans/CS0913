@@ -1,0 +1,17 @@
+#!/bin/bash
+
+timestamp () 
+{ 
+	date +"%F_%T" 
+}
+
+histStamp () 
+{
+	date +"%Y%m%d"
+}
+
+. ./histPull
+
+echo "lets see if this gets posted in history"
+
+timestamp

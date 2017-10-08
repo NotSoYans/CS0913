@@ -42,6 +42,7 @@ timestamp() #basic function to call date variable
 		#as it turns out you can't directly get access to history file though non-interactive sctipt
 		#meaning that even tho the file is generated it stays blank.
 		#a possible workaround may be employed by using:
+		#https://unix.stackexchange.com/questions/5684/history-command-inside-bash-script
 		
 		#HISTFILE=~/.bash_history
 		#set -o history

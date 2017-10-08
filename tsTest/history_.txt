@@ -320,11 +320,3 @@
   320  git commit -m "$(commitStamp)"
   321  git push origin master
   322  history > ./tsTest/history_$(histStamp).txt
-  323  echo "lets see if this gets posted in history"
-  324  timestamp
-  325  history > ./tsTest/history_$(histStamp).txt
-  326  echo "lets see if this gets posted in history"
-  327  timestamp
-  328  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
-  329  histStamp ()  { 	date +"%Y%m%d"; }
-  330  history > ./histDump/history_$(histStamp).txt
