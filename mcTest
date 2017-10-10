@@ -45,28 +45,52 @@
 # echo "You entered: $input_variable"
 
 
-echo 'Please pick from the following'
-select area in area1 area2 area3
-do
-        case $area in 
-        area1|area2|area3)   
-                break
-                ;;
-        *)
-                echo "Invalid area" 
-                ;;
-        esac
-done
+# echo 'Please pick from the following'
+# select area in area1 area2 area3
+# do
+#         case $area in 
+#         area1|area2|area3)   
+#                 break
+#                 ;;
+#         *)
+#                 echo "Invalid area" 
+#                 ;;
+#         esac
+# done
 
-area1 () 
-{
-	echo "testo pesto"
-}
-area2 () 
-{
-	echo "pesto testo"
-}
-area3 () 
-{
-	echo "cresto mesto"
-}
+# area1 () 
+# {
+# 	echo "testo pesto"
+# }
+# area2 () 
+# {
+# 	echo "pesto testo"
+# }
+# area3 () 
+# {
+# 	echo "cresto mesto"
+# }
+
+
+# Bash Menu Script Example
+
+PS3='Please enter your choice: '
+options=("website" "website-server" "Option 3" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "website")
+            chromium-browser ~/darbi/WEB0922/public_html/index.html
+            ;;
+        "website-server")
+            ~/website
+            ;;
+        "Option 3")
+            echo "you chose choice 3"
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done

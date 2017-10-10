@@ -21,6 +21,8 @@ timestamp() #basic function to call date variable
 	#To achive that I want to set up a multiple choice query sh script...
 	#The basic idea of just jury-rigging a multi-choice query to execute a command by failed atm.
 	#needs fresh brain and a bit better look on how querries function.
+	#ok. actually upon looking up an understandable options example I managed to make a functional clone switch.
+	
 
 #Testing Time functionality
 	timestamp #date call

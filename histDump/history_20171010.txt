@@ -1,491 +1,500 @@
-    1  sudo nano /etc/hostname
-    2  sudo nano /etc/hosts
-    3  sudo reboot
-    4  sudo apt-get python-gi
-    5  sudo apt-get firefox
-    6  sudo apt-get install ntfs-3g
-    7  sudo mkdir /media/storage
-    8  sudo cp /etc/fstab /etc/fstab.backup
-    9  sudo blkid
-   10  gksudo gedit /etc/fstab
-   11  reboot
-   12  gedit .config/user-dirs.dirs
-   13  reboot
-   14  gedit .config/user-dirs.dirs
-   15  sudo apt-get install gedit
-   16  gedit .config/user-dirs.dirs
-   17  sudo ntfsfix /dev/sda5
-   18  mount /dev/sda5
-   19  gksu nautilus
-   20  gksu nautilus /.config/sublime-text-3/Packages/
-   21  gksu nautilus
-   22  sudo dpkg --add-arhcitecture i386
-   23  sudo dpkg --add-architecture i386
-   24  wget https://dl.winehq.org/wine-builds/Release.key
-   25  sudo apt-key add Release.key
-   26  sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
-   27  sudo apt-get update
-   28  sudo apt-get install --install-recommends winehq-devel
-   29  sudo apt-get update
-   30  sudo apt-get install --install-recommends winehq-devel
-   31  winecfg
-   32  wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-   33  chmod +x winetricks
-   34  winetricks
-   35  sudo apt install winetricks
-   36  chmod +x winetricks
-   37  winetricks
-   38  winetricks vcrun2015
-   39  list-download
-   40  list
-   41  winetricks list-download
-   42  winetricks help
-   43  winetricks corefonts
-   44  winecfg
-   45  cd/osr/share/pulseaudio/alsa-mixer/paths/
-   46  /cd/osr/share/pulseaudio/alsa-mixer/paths/
-   47  cd /usr/share/pulseaudio/alsa-mixer/paths/
-   48  sudo cp analog-output-headphones.conf analog-output-headphones.bak
-   49  sudo gedit analog-output-headphones.conf
-   50  sudo cp analog-output-headphones.conf analog-output-headphones.fixed
-   51  reboot
-   52  cd /
-   53  cd root
-   54  reboot
-   55  gksudo gedit /etc/modprobe.d/alsa-base.conf
-   56  sudo apt-get install pavucontrol
-   57  pavucontrol
-   58  sudo apt-get-repository ppa:ubuntu-mozilla-daily/ppa
-   59  sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
-   60  sudo apt-get update
-   61  sudo apt-get install firefox-trunk
-   62  lsb_release
-   63  uname -r
-   64  cat /etc/*-release
-   65  ssh x161REB133@213.175.92.37.
-   66  reboot
-   67  ssh x161REB133@213.175.92.37.
-   68  ssh -X x161REB133@213.175.92.37.
-   69  ls
-   70  cd darbi
-   71  cat history.txt
-   72  history > history.txt
-   73  ls -l
-   74  ssh x161REB133@213.175.92.37.
-   75  s
-   76  reboot
-   77  pwd
-   78  mkdir darbi
-   79  ls
-   80  cd darbi
-   81  ls
-   82  man history
-   83  history > history.txt
-   84  ls
-   85  git init
-   86  sudo apt install git
-   87  git init
-   88  history.txt
-   89  gedit history.txt
-   90  git add .
-   91  git config --global user.email yanson.jm@gmail.com
-   92  git commit -m "20170913_09_30"
-   93  git init
-   94  git add .
-   95  git config --global user.email yanson.jm@gmail.com
-   96  git commit -m "20170913_11_40"
-   97  git remote add origin https://github.com/NotSoYans/CS-0913.git
-   98  git push origin master
-   99  rm -rf .git
-  100  ls -l
-  101  ls -la
-  102  git init
-  103  git add .
-  104  git config --global user.email yanson.jm@gmail.com
-  105  git remote add origin https://github.com/NotSoYans/CS-0913.git
-  106  git commit -m "20170913_11_50"
+    4  sudo apt-get install --install-recommends winehq-devel
+    5  winecfg
+    6  wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+    7  chmod +x winetricks
+    8  winetricks
+    9  sudo apt install winetricks
+   10  chmod +x winetricks
+   11  winetricks
+   12  winetricks vcrun2015
+   13  list-download
+   14  list
+   15  winetricks list-download
+   16  winetricks help
+   17  winetricks corefonts
+   18  winecfg
+   19  cd/osr/share/pulseaudio/alsa-mixer/paths/
+   20  /cd/osr/share/pulseaudio/alsa-mixer/paths/
+   21  cd /usr/share/pulseaudio/alsa-mixer/paths/
+   22  sudo cp analog-output-headphones.conf analog-output-headphones.bak
+   23  sudo gedit analog-output-headphones.conf
+   24  sudo cp analog-output-headphones.conf analog-output-headphones.fixed
+   25  reboot
+   26  cd /
+   27  cd root
+   28  reboot
+   29  gksudo gedit /etc/modprobe.d/alsa-base.conf
+   30  sudo apt-get install pavucontrol
+   31  pavucontrol
+   32  sudo apt-get-repository ppa:ubuntu-mozilla-daily/ppa
+   33  sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+   34  sudo apt-get update
+   35  sudo apt-get install firefox-trunk
+   36  lsb_release
+   37  uname -r
+   38  cat /etc/*-release
+   39  ssh x161REB133@213.175.92.37.
+   40  reboot
+   41  ssh x161REB133@213.175.92.37.
+   42  ssh -X x161REB133@213.175.92.37.
+   43  ls
+   44  cd darbi
+   45  cat history.txt
+   46  history > history.txt
+   47  ls -l
+   48  ssh x161REB133@213.175.92.37.
+   49  s
+   50  reboot
+   51  pwd
+   52  mkdir darbi
+   53  ls
+   54  cd darbi
+   55  ls
+   56  man history
+   57  history > history.txt
+   58  ls
+   59  git init
+   60  sudo apt install git
+   61  git init
+   62  history.txt
+   63  gedit history.txt
+   64  git add .
+   65  git config --global user.email yanson.jm@gmail.com
+   66  git commit -m "20170913_09_30"
+   67  git init
+   68  git add .
+   69  git config --global user.email yanson.jm@gmail.com
+   70  git commit -m "20170913_11_40"
+   71  git remote add origin https://github.com/NotSoYans/CS-0913.git
+   72  git push origin master
+   73  rm -rf .git
+   74  ls -l
+   75  ls -la
+   76  git init
+   77  git add .
+   78  git config --global user.email yanson.jm@gmail.com
+   79  git remote add origin https://github.com/NotSoYans/CS-0913.git
+   80  git commit -m "20170913_11_50"
+   81  git push origin master
+   82  rm -rf .git
+   83  git init
+   84  git add .
+   85  git config --global user.email yanson.jm@gmail.com
+   86  git remote add origin https://github.com/NotSoYans/CS-0913.git
+   87  git commit -m "20170913_11_50"
+   88  git push origin master
+   89  git remote add origin https://github.com/NotSoYans/CS0913.git
+   90  rm -rf
+   91  ls
+   92  rm -rf .git
+   93  ls -LA
+   94  ls -la
+   95  git init
+   96  git add .
+   97  git config --global user.email yanson.jm@gmail.com
+   98  git remote add origin https://github.com/NotSoYans/CS0913.git
+   99  git commit -m "20170913_11_50"
+  100  git push origin master
+  101  history > history.txt
+  102  git push origin master
+  103  gedit history.txt
+  104  git add .
+  105  git commit "20170913_11_55"
+  106  git commit -m "20170913_11_55"
   107  git push origin master
-  108  rm -rf .git
-  109  git init
-  110  git add .
-  111  git config --global user.email yanson.jm@gmail.com
-  112  git remote add origin https://github.com/NotSoYans/CS-0913.git
-  113  git commit -m "20170913_11_50"
-  114  git push origin master
-  115  git remote add origin https://github.com/NotSoYans/CS0913.git
-  116  rm -rf
-  117  ls
-  118  rm -rf .git
-  119  ls -LA
-  120  ls -la
-  121  git init
-  122  git add .
-  123  git config --global user.email yanson.jm@gmail.com
-  124  git remote add origin https://github.com/NotSoYans/CS0913.git
-  125  git commit -m "20170913_11_50"
-  126  git push origin master
-  127  history > history.txt
-  128  git push origin master
-  129  gedit history.txt
-  130  git add .
-  131  git commit "20170913_11_55"
-  132  git commit -m "20170913_11_55"
-  133  git push origin master
-  134  ssh -X 213.175.92.22.
-  135  ssh -X x161REB133@213.175.92.22.
-  136  pwd
-  137  ls
-  138  git clone https://github.com/NotSoYans/CS0913.git
-  139  ls -l
-  140  gedit
-  141  cd darbi
-  142  ls
-  143  cd CS0913
-  144  ls
-  145  ls -la
-  146  cdmod 744 gitUL
-  147  chmod 744 gitUL
-  148  ls -l gitUL
-  149  ls
-  150  gitUL
-  151  pwd
-  152  PATH=$PATH:/home/notsoyans/darbi/CS0913
-  153  gitUL
-  154  history > history_20170920.txt
-  155  gitUL
-  156  shutdown
-  157  sublime history.txt
-  158  sublime
-  159  cat gitdownload
-  160  cat gitdownload.sh
-  161  git-download.sh
-  162  echo $PATH
-  163  whereis ls
-  164  cat ls
-  165  cat /bin/ls
-  166  ls -l /bin/ls
-  167  /home/notsoyans/gitdownload.sh
-  168  ls -l
-  169  chmod 744 gitdownload.sh
-  170  ls -l
-  171  rmdir ./CS0913
-  172  rmdir -rf ./CS0913
-  173  rmdir --help
+  108  ssh -X 213.175.92.22.
+  109  ssh -X x161REB133@213.175.92.22.
+  110  pwd
+  111  ls
+  112  git clone https://github.com/NotSoYans/CS0913.git
+  113  ls -l
+  114  gedit
+  115  cd darbi
+  116  ls
+  117  cd CS0913
+  118  ls
+  119  ls -la
+  120  cdmod 744 gitUL
+  121  chmod 744 gitUL
+  122  ls -l gitUL
+  123  ls
+  124  gitUL
+  125  pwd
+  126  PATH=$PATH:/home/notsoyans/darbi/CS0913
+  127  gitUL
+  128  history > history_20170920.txt
+  129  gitUL
+  130  shutdown
+  131  sublime history.txt
+  132  sublime
+  133  cat gitdownload
+  134  cat gitdownload.sh
+  135  git-download.sh
+  136  echo $PATH
+  137  whereis ls
+  138  cat ls
+  139  cat /bin/ls
+  140  ls -l /bin/ls
+  141  /home/notsoyans/gitdownload.sh
+  142  ls -l
+  143  chmod 744 gitdownload.sh
+  144  ls -l
+  145  rmdir ./CS0913
+  146  rmdir -rf ./CS0913
+  147  rmdir --help
+  148  ls -l
+  149  cd /CD0913
+  150  cd CD0913
+  151  cd Cs0913
+  152  cd CS0913
+  153  ls -l
+  154  cd ../
+  155  rm -rf ./CS0913
+  156  ls -l
+  157  gitdownload.sh
+  158  /home/notsoyans/gitdownload.sh
+  159  ./gitdownload.sh
+  160  mv ./gitdownload.sh ./gitDL.sh
+  161  ls -l
+  162  sublime-text
+  163  subl ./darbi/history.txt
+  164  subl ./gitDL.sh
+  165  PATH=/home/user:$PATH
+  166  echo $PATH
+  167  gitDL.sh
+  168  PATH=/home/notsoyans:$PATH
+  169  gitDL.sh
+  170  mv ./gitDL.sh ./gitDL
+  171  gitDL
+  172  cd CS0913
+  173  cd ../darbi
   174  ls -l
-  175  cd /CD0913
-  176  cd CD0913
-  177  cd Cs0913
-  178  cd CS0913
+  175  gitDL
+  176  whereis gitDL
+  177  ls ~/
+  178  cp ~/gitDL ./gitDL
   179  ls -l
-  180  cd ../
-  181  rm -rf ./CS0913
-  182  ls -l
-  183  gitdownload.sh
-  184  /home/notsoyans/gitdownload.sh
-  185  ./gitdownload.sh
-  186  mv ./gitdownload.sh ./gitDL.sh
-  187  ls -l
-  188  sublime-text
-  189  subl ./darbi/history.txt
-  190  subl ./gitDL.sh
-  191  PATH=/home/user:$PATH
-  192  echo $PATH
-  193  gitDL.sh
-  194  PATH=/home/notsoyans:$PATH
-  195  gitDL.sh
-  196  mv ./gitDL.sh ./gitDL
-  197  gitDL
-  198  cd CS0913
-  199  cd ../darbi
-  200  ls -l
-  201  gitDL
-  202  whereis gitDL
-  203  ls ~/
-  204  cp ~/gitDL ./gitDL
-  205  ls -l
-  206  rm -r ./gitDL
-  207  ls
-  208  cd CS0913
-  209  cp ~/hitDL ./gitDL
-  210  cp ~/gitDL ./gitDL
-  211  cp ~/gitDL ./gitLOL
+  180  rm -r ./gitDL
+  181  ls
+  182  cd CS0913
+  183  cp ~/hitDL ./gitDL
+  184  cp ~/gitDL ./gitDL
+  185  cp ~/gitDL ./gitLOL
+  186  ls
+  187  rm -r ./gitLOL
+  188  ls
+  189  subl gitDL
+  190  subl gitUL
+  191  reboot
+  192  ssh -X x161REB166@213.175.92.37.
+  193  ssh git@github.com:NotSoYans/WEB0922.git
+  194  subl website
+  195  ls
+  196  chmod 744 ./website
+  197  ls -l ./website
+  198  website
+  199  cd CS0913
+  200  ls
+  201  subl history.txt
+  202  cd ../
+  203  cd CS0913
+  204  ls
+  205  cd ../darbi
+  206  ls
+  207  cd ../
+  208  ls
+  209  rm -rf CS0913
+  210  ls
+  211  cd darbi
   212  ls
-  213  rm -r ./gitLOL
+  213  cd CS0913
   214  ls
-  215  subl gitDL
-  216  subl gitUL
-  217  reboot
-  218  ssh -X x161REB166@213.175.92.37.
-  219  ssh git@github.com:NotSoYans/WEB0922.git
-  220  subl website
-  221  ls
-  222  chmod 744 ./website
-  223  ls -l ./website
-  224  website
-  225  cd CS0913
-  226  ls
-  227  subl history.txt
-  228  cd ../
+  215  cd ../
+  216  ls
+  217  subl history.tx
+  218  subl history.txt
+  219  cd CS0913
+  220  ls
+  221  subl history_20170920.txt
+  222  cat /etc/*-release
+  223  cd ~/
+  224  pwd
+  225  cd darbi
+  226  history > hist_170920
+  227  subl hist_170920
+  228  cd CS0919
   229  cd CS0913
-  230  ls
-  231  cd ../darbi
-  232  ls
-  233  cd ../
+  230  subl history_20170920.txt
+  231  history > history_20170921.txt
+  232  gitUL
+  233  ~/gitUL
   234  ls
-  235  rm -rf CS0913
-  236  ls
-  237  cd darbi
+  235  ./gitUL
+  236  history > history_20170923.txt
+  237  gedit history_20170923.txt
   238  ls
-  239  cd CS0913
-  240  ls
-  241  cd ../
-  242  ls
-  243  subl history.tx
-  244  subl history.txt
-  245  cd CS0913
+  239  subl gitDL
+  240  subl gitUL
+  241  reboot
+  242  ssh -X x161REB133@213.175.92.37.
+  243  website
+  244  ls
+  245  mv ./website ./website.sh
   246  ls
-  247  subl history_20170920.txt
-  248  cat /etc/*-release
-  249  cd ~/
-  250  pwd
-  251  cd darbi
-  252  history > hist_170920
-  253  subl hist_170920
-  254  cd CS0919
-  255  cd CS0913
-  256  subl history_20170920.txt
-  257  history > history_20170921.txt
-  258  gitUL
-  259  ~/gitUL
-  260  ls
-  261  ./gitUL
-  262  history > history_20170923.txt
-  263  gedit history_20170923.txt
-  264  ls
-  265  subl gitDL
-  266  subl gitUL
-  267  reboot
-  268  ssh -X x161REB133@213.175.92.37.
-  269  website
-  270  ls
-  271  mv ./website ./website.sh
-  272  ls
-  273  ./website.sh
-  274  ./website
-  275  chmod 744 ./website
-  276  ./website
-  277  ~/website
-  278  apt-get update
-  279  sudo apt-get update
-  280  sudo apt-get wine update
-  281  man wine
-  282  sudo apt-get --purge remove wine
-  283  wine
-  284  wine --version
-  285  wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-  286  chmod +x winetricks
-  287  sudo mv -v winetricks /usr/local/bin
-  288  echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
-  289  echo "kernel.yama.ptrace_scope = 0" | sudo tee /etc/sysctl.d/10-ptrace.conf
-  290  winetricks dotnet40
-  291  winetricks
-  292  WINEPREFIX="$HOME/prefix32" WINEARCH=win32 wine wineboot
-  293  winetricks dotnet45
-  294  sudo apt-get upgrade winetricks
-  295  reboot
-  296  ~/website
-  297  ~/website
-  298  curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
-  299  sudo apt-get install gyazo
-  300  ~/website
-  301  echo $
-  302  echo $$
-  303  sudo add-apt-repository ppa:mc3man/mpv-tests
-  304  sudo apt-get update
-  305  suod apt-get install -y mpv
-  306  sudo apt-get install -y mpv
-  307  ~/website
-  308  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
-  309  histStamp ()  { 	date +"%Y%m%d"; }
-  310  history > ./history_$(histStamp).txt
-  311  git config --global user.email yanson.jm@gmail.com
-  312  git add .
-  313  git commit -m "$(commitStamp)"
-  314  git push origin master
-  315  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
-  316  histStamp ()  { 	date +"%Y%m%d"; }
-  317  history > ./histDump/history_$(histStamp).txt
-  318  git config --global user.email yanson.jm@gmail.com
-  319  git add .
-  320  git commit -m "$(commitStamp)"
-  321  git push origin master
-  322  history > ./tsTest/history_$(histStamp).txt
-  323  echo "lets see if this gets posted in history"
-  324  timestamp
-  325  history > ./tsTest/history_$(histStamp).txt
-  326  echo "lets see if this gets posted in history"
-  327  timestamp
-  328  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
-  329  histStamp ()  { 	date +"%Y%m%d"; }
-  330  history > ./histDump/history_$(histStamp).txt
-  331  git config --global user.email yanson.jm@gmail.com
-  332  git add .
-  333  git commit -m "$(commitStamp)"
-  334  git push origin master
+  247  ./website.sh
+  248  ./website
+  249  chmod 744 ./website
+  250  ./website
+  251  ~/website
+  252  apt-get update
+  253  sudo apt-get update
+  254  sudo apt-get wine update
+  255  man wine
+  256  sudo apt-get --purge remove wine
+  257  wine
+  258  wine --version
+  259  wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+  260  chmod +x winetricks
+  261  sudo mv -v winetricks /usr/local/bin
+  262  echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+  263  echo "kernel.yama.ptrace_scope = 0" | sudo tee /etc/sysctl.d/10-ptrace.conf
+  264  winetricks dotnet40
+  265  winetricks
+  266  WINEPREFIX="$HOME/prefix32" WINEARCH=win32 wine wineboot
+  267  winetricks dotnet45
+  268  sudo apt-get upgrade winetricks
+  269  reboot
+  270  ~/website
+  271  ~/website
+  272  curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
+  273  sudo apt-get install gyazo
+  274  ~/website
+  275  echo $
+  276  echo $$
+  277  sudo add-apt-repository ppa:mc3man/mpv-tests
+  278  sudo apt-get update
+  279  suod apt-get install -y mpv
+  280  sudo apt-get install -y mpv
+  281  ~/website
+  282  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
+  283  histStamp ()  { 	date +"%Y%m%d"; }
+  284  history > ./history_$(histStamp).txt
+  285  git config --global user.email yanson.jm@gmail.com
+  286  git add .
+  287  git commit -m "$(commitStamp)"
+  288  git push origin master
+  289  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
+  290  histStamp ()  { 	date +"%Y%m%d"; }
+  291  history > ./histDump/history_$(histStamp).txt
+  292  git config --global user.email yanson.jm@gmail.com
+  293  git add .
+  294  git commit -m "$(commitStamp)"
+  295  git push origin master
+  296  history > ./tsTest/history_$(histStamp).txt
+  297  echo "lets see if this gets posted in history"
+  298  timestamp
+  299  history > ./tsTest/history_$(histStamp).txt
+  300  echo "lets see if this gets posted in history"
+  301  timestamp
+  302  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
+  303  histStamp ()  { 	date +"%Y%m%d"; }
+  304  history > ./histDump/history_$(histStamp).txt
+  305  git config --global user.email yanson.jm@gmail.com
+  306  git add .
+  307  git commit -m "$(commitStamp)"
+  308  git push origin master
+  309  ls
+  310  cd darbi
+  311  ls
+  312  cd CS0913
+  313  ls
+  314  subl history_20170927.txt
+  315  history > history_20171008.txt
+  316  subl history_20171008.txt 
+  317  subl website.sh
+  318  subl ~/website.sh
+  319  subl ~/website
+  320  rm ~/website.sh
+  321  echo date '%T'
+  322  date "%T"
+  323  echo date '%T'
+  324  echo date "%T"
+  325  echo date +"%T"
+  326  date +"%T"
+  327  subl bashVar.sh
+  328  bashVar.sh
+  329  ./bashVar.sh
+  330  ls
+  331  subl test.txt
+  332  ./bashVar.sh
+  333  ls
+  334  ./bashVar.sh
   335  ls
-  336  cd darbi
-  337  ls
-  338  cd CS0913
-  339  ls
-  340  subl history_20170927.txt
-  341  history > history_20171008.txt
-  342  subl history_20171008.txt 
-  343  subl website.sh
-  344  subl ~/website.sh
-  345  subl ~/website
-  346  rm ~/website.sh
-  347  echo date '%T'
-  348  date "%T"
-  349  echo date '%T'
-  350  echo date "%T"
-  351  echo date +"%T"
-  352  date +"%T"
-  353  subl bashVar.sh
-  354  bashVar.sh
-  355  ./bashVar.sh
-  356  ls
-  357  subl test.txt
-  358  ./bashVar.sh
-  359  ls
-  360  ./bashVar.sh
-  361  ls
-  362  mkdir histDump
-  363  mv ./history_20170920.txt ./histDump/history_20170920.txt
-  364  mv ./history_20170921.txt ./histDump/history_20170921.txt
-  365  mv ./history_20170923.txt ./histDump/history_20170923.txt
-  366  mv ./history_20170927.txt ./histDump/history_20170927.txt
-  367  mv ./history_20171008.txt ./histDump/history_20171008.txt
-  368  subl history.txt 
-  369  mv ./history.txt ./history_20170913.txt 
-  370  mv ./history_*.txt ./histDump
-  371  ls
-  372  cd histDump
-  373  ls
-  374  mkdir test
+  336  mkdir histDump
+  337  mv ./history_20170920.txt ./histDump/history_20170920.txt
+  338  mv ./history_20170921.txt ./histDump/history_20170921.txt
+  339  mv ./history_20170923.txt ./histDump/history_20170923.txt
+  340  mv ./history_20170927.txt ./histDump/history_20170927.txt
+  341  mv ./history_20171008.txt ./histDump/history_20171008.txt
+  342  subl history.txt 
+  343  mv ./history.txt ./history_20170913.txt 
+  344  mv ./history_*.txt ./histDump
+  345  ls
+  346  cd histDump
+  347  ls
+  348  mkdir test
+  349  ls
+  350  mv ./history_*.txt ./test
+  351  ls
+  352  mv ./history_*.txt ../
+  353  ls
+  354  cd ../
+  355  ls
+  356  mv ./history_*.txt ./test
+  357  mv ./history_*.txt ./histDump
+  358  rmdir ./histDump/test
+  359  cd histDump
+  360  ls
+  361  cd ../
+  362  ls
+  363  mkdir tsTest
+  364  mv ./2017-10-08_14\:38\:45.txt ./tsTest/2017-10-08_14\:38\:45.txt
+  365  mv ./test_2017-10-08_14\:11\:51.txt ./tsTest/test_2017-10-08_14\:11\:51.txt
+  366  mv ./test.txt ./tsTest/test.txt
+  367  cp ./gitUL ./tsTest/gitUL_test
+  368  cd ./tsTest
+  369  ls
+  370  ./gitUL_test
+  371  cd ../
+  372  ls
+  373  subl ./tsTest/gitUL_test
+  374  cd ./tsTest
   375  ls
-  376  mv ./history_*.txt ./test
-  377  ls
-  378  mv ./history_*.txt ../
-  379  ls
-  380  cd ../
+  376  rm history_20171008.txt 
+  377  cd ../
+  378  echo "pesto" > ./tsTest/testo.xyz
+  379  git add ./histDump
+  380  cd ./tsTest
   381  ls
-  382  mv ./history_*.txt ./test
-  383  mv ./history_*.txt ./histDump
-  384  rmdir ./histDump/test
-  385  cd histDump
-  386  ls
-  387  cd ../
-  388  ls
-  389  mkdir tsTest
-  390  mv ./2017-10-08_14\:38\:45.txt ./tsTest/2017-10-08_14\:38\:45.txt
-  391  mv ./test_2017-10-08_14\:11\:51.txt ./tsTest/test_2017-10-08_14\:11\:51.txt
-  392  mv ./test.txt ./tsTest/test.txt
-  393  cp ./gitUL ./tsTest/gitUL_test
-  394  cd ./tsTest
-  395  ls
-  396  ./gitUL_test
-  397  cd ../
-  398  ls
-  399  subl ./tsTest/gitUL_test
-  400  cd ./tsTest
-  401  ls
-  402  rm history_20171008.txt 
-  403  cd ../
-  404  echo "pesto" > ./tsTest/testo.xyz
-  405  git add ./histDump
-  406  cd ./tsTest
+  382  subl testo.xyz
+  383  cd ../
+  384  ls
+  385  cp ./bashVar.sh ./devExp
+  386  subl ./devExp
+  387  subl bash_var_stuff.txt
+  388  rm bash_var_stuff.txt
+  389  mv ./bashVar.sh ./bashVar
+  390  subl ./bashVar
+  391  subl ./devExp
+  392  bashVar
+  393  ./bashVar
+  394  devExp
+  395  echo $PATH
+  396  subl ./histDump/history_20171008.txt 
+  397  PATH=$PATH:/home/notsoyans/darbi/CS0913
+  398  echo $PATH
+  399  devExp
+  400  ls
+  401  gitUL
+  402  ls
+  403  rm history_20171008.txt 
+  404  echo "#Comuputer Science REBC02-2017" > README.md
+  405  subl README.md
+  406  gitUL
   407  ls
-  408  subl testo.xyz
-  409  cd ../
-  410  ls
-  411  cp ./bashVar.sh ./devExp
-  412  subl ./devExp
-  413  subl bash_var_stuff.txt
-  414  rm bash_var_stuff.txt
-  415  mv ./bashVar.sh ./bashVar
-  416  subl ./bashVar
-  417  subl ./devExp
-  418  bashVar
-  419  ./bashVar
-  420  devExp
-  421  echo $PATH
-  422  subl ./histDump/history_20171008.txt 
-  423  PATH=$PATH:/home/notsoyans/darbi/CS0913
-  424  echo $PATH
-  425  devExp
+  408  cd histDump
+  409  ls -la
+  410  subl history_20171008.txt 
+  411  rm history_20171008.txt 
+  412  cd ../
+  413  gitUL
+  414  ls
+  415  pwd
+  416  ls la
+  417  ls -la
+  418  gitUL
+  419  ls
+  420  rm history_20171008.txt 
+  421  cat /etc/alternatives/x-terminal-emulator
+  422  echo $CHELL
+  423  echo $SHELL
+  424  ls
+  425  gitUL
   426  ls
-  427  gitUL
-  428  ls
-  429  rm history_20171008.txt 
-  430  echo "#Comuputer Science REBC02-2017" > README.md
-  431  subl README.md
-  432  gitUL
-  433  ls
-  434  cd histDump
-  435  ls -la
-  436  subl history_20171008.txt 
-  437  rm history_20171008.txt 
-  438  cd ../
-  439  gitUL
-  440  ls
-  441  pwd
-  442  ls la
-  443  ls -la
-  444  gitUL
+  427  subl history_20171008.txt 
+  428  mv history_20171008.txt ./histDump/history_20171008.txt 
+  429  gitUL
+  430  man history 
+  431  man set -o
+  432  ls
+  433  chmod 744 histPullTest
+  434  ls
+  435  histPullTest
+  436  cd tsTest
+  437  ls
+  438  subl history_20171008.txt 
+  439  cd ../
+  440  histPullTest 
+  441  subl history_20171008.txt 
+  442  ls
+  443  mv ./HistPull ./histPull
+  444  chmod 744 ./histPull
   445  ls
-  446  rm history_20171008.txt 
-  447  cat /etc/alternatives/x-terminal-emulator
-  448  echo $CHELL
-  449  echo $SHELL
-  450  ls
-  451  gitUL
-  452  ls
-  453  subl history_20171008.txt 
-  454  mv history_20171008.txt ./histDump/history_20171008.txt 
-  455  gitUL
-  456  man history 
-  457  man set -o
-  458  ls
-  459  chmod 744 histPullTest
-  460  ls
-  461  histPullTest
-  462  cd tsTest
-  463  ls
-  464  subl history_20171008.txt 
-  465  cd ../
-  466  histPullTest 
-  467  subl history_20171008.txt 
-  468  ls
-  469  mv ./HistPull ./histPull
-  470  chmod 744 ./histPull
-  471  ls
-  472  histPullTest
-  473  cd tsTest
+  446  histPullTest
+  447  cd tsTest
+  448  ls
+  449  subl history_20171008.txt 
+  450  ls -la
+  451  ./histPullTest
+  452  ../histPullTest
+  453  cd ../
+  454  ls
+  455  histPullTest
+  456  ls -la ./tsTest
+  457  subl ./tsTest/history_20171008.txt 
+  458  mv histPull ./tsTest/histPullTestSub
+  459  mv histPullTest ./tsTest/histPullTest
+  460  gitUL
+  461  website
+  462  ~/website
+  463  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
+  464  histStamp ()  { 	date +"%Y%m%d"; }
+  465  history > ./histDump/history_$(histStamp).txt
+  466  git config --global user.email yanson.jm@gmail.com
+  467  git add .
+  468  git commit -m "$(commitStamp)"
+  469  git push origin master
+  470  ls
+  471  cd darbi
+  472  ls
+  473  mv ~/gitDL ~/darbi/gitDL
   474  ls
-  475  subl history_20171008.txt 
-  476  ls -la
-  477  ./histPullTest
-  478  ../histPullTest
-  479  cd ../
+  475  subl hist_170920 
+  476  rm hist_170920 
+  477  subl history.txt 
+  478  rm history.txt 
+  479  chromium
   480  ls
-  481  histPullTest
-  482  ls -la ./tsTest
-  483  subl ./tsTest/history_20171008.txt 
-  484  mv histPull ./tsTest/histPullTestSub
-  485  mv histPullTest ./tsTest/histPullTest
-  486  gitUL
-  487  website
-  488  ~/website
-  489  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
-  490  histStamp ()  { 	date +"%Y%m%d"; }
-  491  history > ./histDump/history_$(histStamp).txt
+  481  subl gitDL
+  482  cd CS0913
+  483  mcTest
+  484  echo $PATH
+  485  ./mcTest
+  486  ls -la ./mcTest
+  487  chmod 744 mcTest
+  488  ./mcTest
+  489  echo "testo pesto"
+  490  ./mcTest
+  491  ./gitUL
+  492  cd ../
+  493  subl gitDL
+  494  ./gitDL
+  495  ls
+  496  cd WEB0922
+  497  ls
+  498  cd public_html/
+  499  chromium-browser index.html
+  500  cd ~/darbi/CS0913
+  501  commitStamp ()  { 	date +"%Y%m%d_%H_%M"; }
+  502  histStamp ()  { 	date +"%Y%m%d"; }
+  503  history > ./histDump/history_$(histStamp).txt
