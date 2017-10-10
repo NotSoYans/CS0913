@@ -16,6 +16,12 @@ timestamp() #basic function to call date variable
 	#don't forget to show it later I suppose
 	#https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
+#Expanding gitDL functionality - multi-choice DL's
+	#Basic idea is that I want to automate git repo cloning process as much as possible.
+	#To achive that I want to set up a multiple choice query sh script...
+	#The basic idea of just jury-rigging a multi-choice query to execute a command by failed atm.
+	#needs fresh brain and a bit better look on how querries function.
+
 #Testing Time functionality
 	timestamp #date call
 

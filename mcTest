@@ -1,0 +1,72 @@
+#!/bin/bash
+
+# git clone https://github.com/NotSoYans/CS0913.git
+# git clone https://github.com/NotSoYans/WED0922.git
+# git clone https://github.com/NotSoYans/JS0920.git
+
+# https://stackoverflow.com/questions/28377618/how-do-i-create-a-shell-script-with-multiple-choice-menu-variables
+
+# echo 'Please pick from the following'
+# select area in area1 area2 area3
+# do
+#         case $area in 
+#         area1|area2|area3)   
+#                 break
+#                 ;;
+#         *)
+#                 echo "Invalid area" 
+#                 ;;
+#         esac
+# done
+
+# https://stackoverflow.com/questions/226703/how-do-i-prompt-for-yes-no-cancel-input-in-a-linux-shell-script
+
+# echo "Do you wish to install this program?"
+# select yn in "Yes" "No"; do
+#     case $yn in
+#         Yes ) make install; break;;
+#         No ) exit;;
+#     esac
+# done
+
+
+# while true; do
+#     read -p "Do you wish to install this program?" yn
+#     case $yn in
+#         [Yy]* ) make install; break;;
+#         [Nn]* ) exit;;
+#         * ) echo "Please answer yes or no.";;
+#     esac
+# done
+
+
+# echo "Please enter some input: "
+# read input_variable
+# echo "You entered: $input_variable"
+
+
+echo 'Please pick from the following'
+select area in area1 area2 area3
+do
+        case $area in 
+        area1|area2|area3)   
+                break
+                ;;
+        *)
+                echo "Invalid area" 
+                ;;
+        esac
+done
+
+area1 () 
+{
+	echo "testo pesto"
+}
+area2 () 
+{
+	echo "pesto testo"
+}
+area3 () 
+{
+	echo "cresto mesto"
+}
