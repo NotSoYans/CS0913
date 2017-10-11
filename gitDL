@@ -1,2 +1,25 @@
 #!/bin/bash
-git clone https://github.com/NotSoYans/CS0913.git
+
+PS3='Please enter your choice: '
+options=("CS0913" "WEB0922" "JS0920" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "CS0913")
+            git clone https://github.com/NotSoYans/CS0913.git
+            break
+            ;;
+        "WEB0922")
+            git clone https://github.com/NotSoYans/WEB0922.git
+            break
+            ;;
+        "JS0920")
+            git clone https://github.com/NotSoYans/JS0920.git
+            break
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done
